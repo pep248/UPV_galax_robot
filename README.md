@@ -134,10 +134,10 @@ Once configuration is complete, follow this procedure each time you want to oper
    2. Launch simulated robot:
       `ros2 launch galax_bringup keyboard_sim_robot.launch.py`
 
-   3. Launch real robot with UPV navigation demo:
+   3. Launch simulated navigation demo:
       `ros2 launch galax_navigation launch_navigation_sim.launch.py`
 
-   4. Launch simulated robot with navigation demo:
+   4. Launch real robot navigation demo using the UPV map:
       `ros2 launch galax_navigation launch_navigation.launch.py`
 
 
